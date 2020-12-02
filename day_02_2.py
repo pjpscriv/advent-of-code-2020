@@ -25,8 +25,6 @@ def count_valid(line_tuple):
         return 1
 
 
-
-
 file = open('input/day_02_1.txt')
 nums = [parse_line(x) for x in file.readlines()]
 file.close()
@@ -34,4 +32,3 @@ file.close()
 valid = reduce(lambda x, y: x + count_valid(y), nums, 0)
 
 print(valid)
-
