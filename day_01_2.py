@@ -1,4 +1,4 @@
-file = open('input/day_01_1.txt')
+file = open('input/day_01.txt')
 nums = [int(x) for x in file.readlines()]
 file.close()
 

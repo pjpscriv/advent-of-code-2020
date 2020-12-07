@@ -26,7 +26,7 @@ def is_valid(passport):
             return 0
     return 1
 
-file = open('input/day_04_1.txt')
+file = open('input/day_04.txt')
 lines = file.readlines()
 file.close()
 

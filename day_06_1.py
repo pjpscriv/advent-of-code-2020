@@ -13,7 +13,7 @@ def parse_groups(lines):
     return groups
 
 
-file = open('input/day_06_1.txt')
+file = open('input/day_06.txt')
 lines = [l.strip() for l in file.readlines()]
 file.close()
 

@@ -13,7 +13,7 @@ def parse_seat(seat):
     return (row * 8) + col
 
 
-file = open('input/day_05_1.txt')
+file = open('input/day_05.txt')
 nums = [parse_seat(x) for x in file.readlines()]
 file.close()
 

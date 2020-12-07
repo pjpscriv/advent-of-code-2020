@@ -24,7 +24,7 @@ def count_valid(line_tuple):
         return 0
 
 
-file = open('input/day_02_1.txt')
+file = open('input/day_02.txt')
 nums = [parse_line(x) for x in file.readlines()]
 file.close()
 
